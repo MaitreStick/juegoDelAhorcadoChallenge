@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+}
+
+.contenedor-general{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 10px;
+    height: 100vh;
+    max-width: 100vw;
+    background-color: #F3F5FC;
+    border: 2px solid black;
+}
+
+.contenedor-superior{
+    grid-row: 1/3;
+    border: 2px solid black;
+}
+
+.contenedor-superior img{
+    max-width: 32px;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    border: 2px solid black;
+}
+
+.contenedor-inferior{
+    grid-row: 3/4;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#iniciarJuego{
+    width: 317px;
+    height: 6rem;
+    background: #0A3871;
+    border-radius: 24px;
+    border: 2px solid #0A3871;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#agregarPalabra{
+    width: 278px;
+    height: 6rem;
+    margin:0 1.2em 0 1.2em; 
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #0A3871;
+}
+
+
+
+
+
+
