@@ -45,6 +45,10 @@
     color: #FFFFFF;
 }
 
+#iniciarJuego:active{
+    transform: scale(.9);
+}
+
 #agregarPalabra{
     width: 278px;
     height: 6rem;
@@ -53,6 +57,10 @@
     border-radius: 24px;
     font-size: 16px;
     color: #0A3871;
+}
+
+#agregarPalabra:active{
+    transform: scale(.9);
 }
 
 
